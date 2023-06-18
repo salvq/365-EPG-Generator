@@ -16,7 +16,7 @@ MUJ_TV_PROGRAM_CZ = 1
 SLEDOVANITV_CZ = 1
 SLEDOVANIETV_SK = 1
 TV_SPIEL = 1
-OTT_PLAY = 1
+OTT_PLAY = 0
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
@@ -32,7 +32,7 @@ TV_SPIEL_IDS = ""
 OTT_PLAY_IDS = ""
 
 # název souboru
-file_name = "epg.xml"
+file_name = "epg_365.xml"
 
 #Nahrát EPG na ftp server
 #Ano = 1
