@@ -26,7 +26,8 @@ except Exception as ex:
     sys.exit(0)
 
 
-dn = os.path.dirname(os.path.realpath(__file__))
+#dn = os.path.dirname(os.path.realpath(__file__))
+dn = os.environ.get('FOLDER', '/tmp')
 fn = os.path.join(dn,file_name)
 custom_names_path = os.path.join(dn,"custom_names.txt")
 now = datetime.now()
